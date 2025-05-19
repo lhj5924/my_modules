@@ -6,8 +6,8 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path="/" element={<h1>Home</h1>} />
-      <Route path="/button" element={<ButtonDemo />} />
+      {/* <Route path="/" element={<h1>Home</h1>} /> */}
+      <Route path="/" element={<ButtonDemo />} />
     </Routes>
     </>
   )
