@@ -5,6 +5,10 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+    
+# 워크플로우에 write 권한 추가
+permissions:
+  contents: write
 
 jobs:
   build-and-deploy:
