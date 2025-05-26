@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
-import ButtonDemo from './Button'
+import ButtonDemo from './pages/Button'
+import InputSystemDemo from './pages/TextInput'
 
 function App() {
 
@@ -7,7 +8,9 @@ function App() {
     <>
     <Routes>
       {/* <Route path="/" element={<h1>Home</h1>} /> */}
-      <Route path="/" element={<ButtonDemo />} />
+      <Route path="/" element={<InputSystemDemo />} />
+      <Route path="/button" element={<ButtonDemo />} />
+      <Route path='/input' element={<InputSystemDemo />} />
     </Routes>
     </>
   )

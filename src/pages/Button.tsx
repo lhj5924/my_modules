@@ -1,7 +1,7 @@
 import React, { type CSSProperties } from 'react';
-import { MYCOLOR, StyledButton } from './Button.style';
-import rightArrowWhite from './assets/images/ic_arrow_right_16_white.png';
-import rightArrowBlack from './assets/images/ic_arrow_right_16_black.png';
+import { MYCOLOR, StyledButton } from '../style/Button.style';
+import rightArrowWhite from '../assets/images/ic_arrow_right_16_white.png';
+import rightArrowBlack from '../assets/images/ic_arrow_right_16_black.png';
 
 // 버튼 Props 인터페이스
 interface ButtonProps {
