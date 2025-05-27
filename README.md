@@ -53,3 +53,4 @@ export default tseslint.config({
 })
 ```
 "# my_modules" 
+"# front-core-modules" 
