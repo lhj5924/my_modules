@@ -1,0 +1,15 @@
+export const MYCOLOR = {
+    white: '#FFFFFF',
+    text_default: '#1D1D1F',
+    text_secondary: '#8E8E93',
+    text_disabled: '#C7C7CC',
+    gray_5: '#E5E5EA',
+    gray_7: '#AEAEB2',
+    gray_12: '#48484A',
+    error_1: '#FF3B30',
+    icon_secondary: '#8E8E93',
+    btn_primary_default: '#1F1F1F',
+    accent16: '#E6F3FF',
+    border_default: '#D1D1D6',
+    bgBase2: '#F8F9FA',
+  };
